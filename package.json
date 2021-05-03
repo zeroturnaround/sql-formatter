@@ -1,6 +1,6 @@
 {
-  "name": "sql-formatter",
-  "version": "4.0.2",
+  "name": "@gethue/sql-formatter",
+  "version": "4.0.3",
   "description": "Format whitespace in a SQL query to make it more readable",
   "license": "MIT",
   "main": "lib/sqlFormatter.js",
@@ -8,6 +8,7 @@
   "bin": {
     "sql-formatter": "./bin/sqlfmt.js"
   },
+  "private": false,
   "keywords": [
     "sql",
     "formatter",
@@ -72,10 +73,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zeroturnaround/sql-formatter.git"
+    "url": "https://github.com/gethue/sql-formatter.git"
   },
   "bugs": {
-    "url": "https://github.com/zeroturnaround/sql-formatter/issues"
+    "url": "https://github.com/gethue/sql-formatter/issues"
   },
   "devDependencies": {
     "@babel/cli": "^7.10.4",
